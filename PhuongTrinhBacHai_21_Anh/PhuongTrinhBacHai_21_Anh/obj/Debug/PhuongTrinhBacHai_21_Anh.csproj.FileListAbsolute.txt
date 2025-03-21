@@ -1,0 +1,10 @@
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\bin\Debug\PhuongTrinhBacHai_21_Anh.exe.config
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\bin\Debug\PhuongTrinhBacHai_21_Anh.exe
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\bin\Debug\PhuongTrinhBacHai_21_Anh.pdb
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\obj\Debug\PhuongTrinhBacHai_21_Anh.csproj.AssemblyReference.cache
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\obj\Debug\PhuongTrinhBacHai_21_Anh.Frm_PhuongTrinhBacHai_21_Anh.resources
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\obj\Debug\PhuongTrinhBacHai_21_Anh.Properties.Resources.resources
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\obj\Debug\PhuongTrinhBacHai_21_Anh.csproj.GenerateResource.cache
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\obj\Debug\PhuongTrinhBacHai_21_Anh.csproj.CoreCompileInputs.cache
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\obj\Debug\PhuongTrinhBacHai_21_Anh.exe
+D:\KiemThuPM\BTL_KTPM\PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh\obj\Debug\PhuongTrinhBacHai_21_Anh.pdb
