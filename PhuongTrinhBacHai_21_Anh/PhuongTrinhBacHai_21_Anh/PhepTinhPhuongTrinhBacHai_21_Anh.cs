@@ -19,8 +19,8 @@ namespace PhuongTrinhBacHai_21_Anh
                 else
                 {
                     double x_21_Anh = -c_21_Anh / b_21_Anh;
-                    return $"Phương trình có một nghiệm x = {x_21_Anh:F1}";
-                    //Hoặc dùng String.Format("Phương trình có một nghiệm x = {0}", x_21_Anh);
+                    return String.Format("Phương trình có một nghiệm x = {0}", x_21_Anh);
+                
                 }
 
             }
@@ -31,12 +31,15 @@ namespace PhuongTrinhBacHai_21_Anh
                 {
                     double x1_21_Anh = (-b_21_Anh - Math.Sqrt(delta_21_Anh)) / (2 * a_21_Anh);
                     double x2_21_Anh = (-b_21_Anh + Math.Sqrt(delta_21_Anh)) / (2 * a_21_Anh);
-                    return $"Phương trình có hai nghiệm phân biệt x1= {x1_21_Anh:F1} , x2= {x2_21_Anh:F1}";
+                    return String.Format("Phương trình có hai nghiệm phân biệt x1 = {0} , x2 = {1}", x1_21_Anh, x2_21_Anh);
+
                 }
                 else if (delta_21_Anh == 0)
                 {
                     double x_21_Anh = -b_21_Anh/(2 * a_21_Anh);
-                    return $"Phương trình có nghiệm kép : x = {x_21_Anh:F1}";
+                    return String.Format("Phương trình có nghiệm kép : x = {0}", x_21_Anh);
+
+
                 }
                 else // delta_21_Anh < 0 
                 {
