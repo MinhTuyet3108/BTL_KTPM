@@ -24,12 +24,21 @@ namespace PhuongTrinhBacHai_21_Anh
                 double a_21_Anh = double.Parse(txtHeSoA_21_Anh.Text);
                 double b_21_Anh = double.Parse(txtHeSoB_21_Anh.Text);
                 double c_21_Anh = double.Parse(txtHeSoC_21_Anh.Text);
-                lblKetQua_21_Anh.Text = PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(a_21_Anh,b_21_Anh,c_21_Anh);
+
+      
+                double[] nghiem;
+                string ketQua;
+
+
+                PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out nghiem, out ketQua, a_21_Anh, b_21_Anh, c_21_Anh);
+
+
+                lblKetQua_21_Anh.Text = ketQua;
 
             }
             catch (FormatException)
             {
-                MessageBox.Show("Vui lòng nhập số hợp lệ !" ,"Thông báo" , MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng nhập số hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

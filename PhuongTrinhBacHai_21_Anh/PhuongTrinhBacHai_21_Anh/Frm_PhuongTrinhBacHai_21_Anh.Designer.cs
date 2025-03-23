@@ -33,12 +33,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtHeSoA_21_Anh = new System.Windows.Forms.TextBox();
-            this.txtHeSoB_21_Anh = new System.Windows.Forms.TextBox();
             this.txtHeSoC_21_Anh = new System.Windows.Forms.TextBox();
+            this.txtHeSoB_21_Anh = new System.Windows.Forms.TextBox();
+            this.txtHeSoA_21_Anh = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnXemKQ_21_Anh = new System.Windows.Forms.Button();
             this.lblKetQua_21_Anh = new System.Windows.Forms.Label();
@@ -96,25 +96,26 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
-            // label2
+            // txtHeSoC_21_Anh
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(29, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 29);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Hệ số a :";
+            this.txtHeSoC_21_Anh.Location = new System.Drawing.Point(201, 158);
+            this.txtHeSoC_21_Anh.Name = "txtHeSoC_21_Anh";
+            this.txtHeSoC_21_Anh.Size = new System.Drawing.Size(408, 22);
+            this.txtHeSoC_21_Anh.TabIndex = 5;
             // 
-            // label4
+            // txtHeSoB_21_Anh
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(28, 89);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 29);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Hệ số b :";
+            this.txtHeSoB_21_Anh.Location = new System.Drawing.Point(201, 96);
+            this.txtHeSoB_21_Anh.Name = "txtHeSoB_21_Anh";
+            this.txtHeSoB_21_Anh.Size = new System.Drawing.Size(408, 22);
+            this.txtHeSoB_21_Anh.TabIndex = 4;
+            // 
+            // txtHeSoA_21_Anh
+            // 
+            this.txtHeSoA_21_Anh.Location = new System.Drawing.Point(201, 38);
+            this.txtHeSoA_21_Anh.Name = "txtHeSoA_21_Anh";
+            this.txtHeSoA_21_Anh.Size = new System.Drawing.Size(408, 22);
+            this.txtHeSoA_21_Anh.TabIndex = 3;
             // 
             // label5
             // 
@@ -126,26 +127,25 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "Hệ số c :";
             // 
-            // txtHeSoA_21_Anh
+            // label4
             // 
-            this.txtHeSoA_21_Anh.Location = new System.Drawing.Point(201, 38);
-            this.txtHeSoA_21_Anh.Name = "txtHeSoA_21_Anh";
-            this.txtHeSoA_21_Anh.Size = new System.Drawing.Size(408, 22);
-            this.txtHeSoA_21_Anh.TabIndex = 3;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(28, 89);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(108, 29);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Hệ số b :";
             // 
-            // txtHeSoB_21_Anh
+            // label2
             // 
-            this.txtHeSoB_21_Anh.Location = new System.Drawing.Point(201, 96);
-            this.txtHeSoB_21_Anh.Name = "txtHeSoB_21_Anh";
-            this.txtHeSoB_21_Anh.Size = new System.Drawing.Size(408, 22);
-            this.txtHeSoB_21_Anh.TabIndex = 4;
-            // 
-            // txtHeSoC_21_Anh
-            // 
-            this.txtHeSoC_21_Anh.Location = new System.Drawing.Point(201, 158);
-            this.txtHeSoC_21_Anh.Name = "txtHeSoC_21_Anh";
-            this.txtHeSoC_21_Anh.Size = new System.Drawing.Size(408, 22);
-            this.txtHeSoC_21_Anh.TabIndex = 5;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(29, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(107, 29);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Hệ số a :";
             // 
             // groupBox2
             // 
