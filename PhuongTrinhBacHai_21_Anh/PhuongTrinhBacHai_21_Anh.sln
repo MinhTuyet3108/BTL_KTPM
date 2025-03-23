@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhuongTrinhBacHai_21_Anh", "PhuongTrinhBacHai_21_Anh\PhuongTrinhBacHai_21_Anh.csproj", "{C2DD0BD0-7467-40A9-A05D-300FEE495462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhuongTrinhBacHaiTester_82_Tuyet", "PhuongTrinhBacHaiTester_82_Tuyet\PhuongTrinhBacHaiTester_82_Tuyet.csproj", "{FBBC1933-6C40-4C57-9609-FAFBACDA7287}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{C2DD0BD0-7467-40A9-A05D-300FEE495462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DD0BD0-7467-40A9-A05D-300FEE495462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DD0BD0-7467-40A9-A05D-300FEE495462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBC1933-6C40-4C57-9609-FAFBACDA7287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBC1933-6C40-4C57-9609-FAFBACDA7287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBC1933-6C40-4C57-9609-FAFBACDA7287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBC1933-6C40-4C57-9609-FAFBACDA7287}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A9FD282-B17B-41A8-8EB3-35CFD74BB393}
 	EndGlobalSection
 EndGlobal
