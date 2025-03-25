@@ -22,7 +22,7 @@ namespace PhuongTrinhBacHai_21_Anh
                 {
 
                     double x_21_Anh = -c_21_Anh / b_21_Anh;
-                    KetQua_21_Anh = String.Format("Phương trình có một nghiệm x = {0}", x_21_Anh);
+                    KetQua_21_Anh = String.Format("Phương trình có một nghiệm x = {0:F2}", x_21_Anh);
                     Nghiem_21_Anh = new double[] {x_21_Anh};
                 
                 }
@@ -35,14 +35,14 @@ namespace PhuongTrinhBacHai_21_Anh
                 {
                     double x1_21_Anh = (-b_21_Anh - Math.Sqrt(delta_21_Anh)) / (2 * a_21_Anh);
                     double x2_21_Anh = (-b_21_Anh + Math.Sqrt(delta_21_Anh)) / (2 * a_21_Anh);
-                    KetQua_21_Anh = String.Format("Phương trình có hai nghiệm phân biệt x1 = {0} , x2 = {1}", x1_21_Anh, x2_21_Anh);
+                    KetQua_21_Anh = String.Format("Phương trình có hai nghiệm phân biệt x1 = {0:F2} , x2 = {1:F2}", x1_21_Anh, x2_21_Anh);
                     Nghiem_21_Anh = new double[] {x1_21_Anh,x2_21_Anh };
 
                 }
                 else if (delta_21_Anh == 0)
                 {
                     double x_21_Anh = -b_21_Anh/(2 * a_21_Anh);
-                    KetQua_21_Anh = String.Format("Phương trình có nghiệm kép : x = {0}", x_21_Anh);
+                    KetQua_21_Anh = String.Format("Phương trình có nghiệm kép : x = {0:F2}", x_21_Anh);
                     Nghiem_21_Anh = new double[] { x_21_Anh };
 
 
