@@ -17,6 +17,9 @@ namespace PhuongTrinhBacHai_21_Anh
             InitializeComponent();
         }
 
+        private double[] Nghiem_21_Anh;
+        private string KetQua_21_Anh;
+
         private void btnXemKQ_21_Anh_Click(object sender, EventArgs e)
         {
             try
@@ -26,14 +29,13 @@ namespace PhuongTrinhBacHai_21_Anh
                 double c_21_Anh = double.Parse(txtHeSoC_21_Anh.Text);
 
       
-                double[] nghiem;
-                string ketQua;
 
 
-                PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out nghiem, out ketQua, a_21_Anh, b_21_Anh, c_21_Anh);
+
+                PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_21_Anh, out KetQua_21_Anh, a_21_Anh, b_21_Anh, c_21_Anh);
 
 
-                lblKetQua_21_Anh.Text = ketQua;
+                lblKetQua_21_Anh.Text = KetQua_21_Anh;
 
             }
             catch (FormatException)
