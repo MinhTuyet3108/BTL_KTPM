@@ -156,7 +156,28 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh);
 
         }
-        //TC13 -> DataSource 
+        //TC13 -> DataSource -> 12 test case -> 6 pass - 6 fail 
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        //
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestPower.csv", "TestPower#csv", DataAccessMethod.Sequential)]
+        public void TC13_12Testcase_6pass_6fail_82_Tuyet()
+        {
+
+        }
 
     }
 }
