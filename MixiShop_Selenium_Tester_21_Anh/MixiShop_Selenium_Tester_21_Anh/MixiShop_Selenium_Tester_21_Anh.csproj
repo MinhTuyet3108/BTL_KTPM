@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54324BCD-CD3E-47D7-9D44-1B9080534DC2}</ProjectGuid>
+    <ProjectGuid>{D1EF9FDF-3D4E-4AC9-95DC-3F415E7FBF74}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CellPhoneS_SeleniumTester_21_Anh</RootNamespace>
-    <AssemblyName>CellPhoneS_SeleniumTester_21_Anh</AssemblyName>
+    <RootNamespace>MixiShop_Selenium_Tester_21_Anh</RootNamespace>
+    <AssemblyName>MixiShop_Selenium_Tester_21_Anh</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -81,7 +81,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Unittest_CellPhoneS_Selenium_21_Anh.cs" />
+    <Compile Include="MixiShop_Controllers_21_Anh.cs" />
+    <Compile Include="UnitTest_MixiShop_21_Anh.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
