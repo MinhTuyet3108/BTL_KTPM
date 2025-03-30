@@ -82,7 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MixiShop_Controllers_21_Anh.cs" />
-    <Compile Include="UnitTest_MixiShop_21_Anh.cs" />
+    <Compile Include="Task1_UnitTest__Login_MixiShop_21_Anh.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
