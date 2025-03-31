@@ -26,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest_PTBacHai_82_Tuyet.cs",
+              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
+              "RelativeDocumentMoniker": "PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
+              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
+              "RelativeToolTip": "PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAqwJsAAACnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:33:18.708Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -42,21 +55,7 @@
               "RelativeToolTip": "PhuongTrinhBacHai_21_Anh\\Frm_PhuongTrinhBacHai_21_Anh.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:32:06.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest_PTBacHai_82_Tuyet.cs",
-              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
-              "RelativeDocumentMoniker": "PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
-              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
-              "RelativeToolTip": "PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAkwJ4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:33:18.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T15:32:06.28Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAAwBgAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:33:19.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T14:33:19.01Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh\\Frm_PhuongTrinhBacHai_21_Anh.cs [Design]",
               "RelativeToolTip": "PhuongTrinhBacHai_21_Anh\\Frm_PhuongTrinhBacHai_21_Anh.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:33:19.013Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-25T14:33:19.013Z"
             }
           ]
         }
