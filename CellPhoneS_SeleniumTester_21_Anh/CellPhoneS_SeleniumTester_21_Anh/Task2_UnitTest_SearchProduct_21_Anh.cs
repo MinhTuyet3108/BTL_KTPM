@@ -9,10 +9,12 @@ namespace CellPhoneS_SeleniumTester_21_Anh
     [TestClass]
     public class Task2_UnitTest_SearchProduct_21_Anh
     {
-
+        
         CellPhoneS_Controllers_21_Anh c_21_Anh = new CellPhoneS_Controllers_21_Anh();
+
+        //TC1 tuTimKiem_21_Anh = "Iphone 16" , expected_21_Anh=true , actual_21_Anh = true -> Pass
         [TestMethod]
-        public void TC1_SearchProduct_Pass_21_Anh()
+        public void TC1_SearchProduct_Find_Pass_21_Anh()
         {
             string tuTimKiem_21_Anh = "Iphone 16";
 
@@ -21,6 +23,16 @@ namespace CellPhoneS_SeleniumTester_21_Anh
             bool expected_21_Anh = true;
             Assert.AreEqual(expected_21_Anh, actual_21_Anh);
             
+        }
+        //TC2 tuTimKiem_21_Anh = "@@" , expected_21_Anh=true , actual_21_Anh = true -> Pass
+        [TestMethod]
+        public void TC2_SearchProduct_notFound_Fail_21_Anh()
+        {
+            string tuTimKiem_21_Anh = "@@";
+            bool actual_21_Anh = c_21_Anh.TimKiemSanPham_21_Anh(tuTimKiem_21_Anh);
+            //Không tìm thấy thì phải trả ra false theo logic của dev .
+            bool expected_21_Anh = false;
+            Assert.AreEqual(expected_21_Anh , actual_21_Anh);
         }
 
 

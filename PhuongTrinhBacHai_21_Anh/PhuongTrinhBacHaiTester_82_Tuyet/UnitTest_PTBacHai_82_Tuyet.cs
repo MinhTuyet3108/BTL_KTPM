@@ -24,7 +24,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
             double[] actual_82_Tuyet = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet);
+            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
 
         [TestMethod]
@@ -36,7 +36,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
             double[] actual_82_Tuyet = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet);
+            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
 
         [TestMethod]
@@ -48,7 +48,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
             double[] actual_82_Tuyet = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet);
+            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
         [TestMethod]
         //TC4 : a=0.0, b=5.0, c=15.0, ket qua mong doi ={ 4.0} -> Fail
@@ -59,7 +59,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
             double[] actual_82_Tuyet = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet);
+            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
 
         [TestMethod]
@@ -73,7 +73,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
             double[] actual_82_Tuyet = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet);
+            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
 
         [TestMethod]
@@ -85,17 +85,17 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
             double[] actual_82_Tuyet = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet);
+            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
         [TestMethod]
         //TC7 delta_21_Anh =9.0 > 0 , ketquamongdoi = { -1 ,-2/3} -> Pass
         public void TC7_delta_lonHonKhong_Pass_21_Anh()
         {
             double a_21_Anh = 2.0 , b_21_Anh = 5.0, c_21_Anh = 2.0;
-            double[] expected_21_Anh = { -2.0 ,-0.5};
+            double[] expected_21_Anh = {-2.0 ,-0.5};
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_21_Anh, b_21_Anh, c_21_Anh);
             double[] actual_21_Anh = Nghiem_82_Tuyet ;
-            CollectionAssert.AreEqual(expected_21_Anh , actual_21_Anh);
+            CollectionAssert.AreEqual(expected_21_Anh , actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
 
             //Xem xét
             //for (int i = 0; i < expected_21_Anh.Length; i++)
@@ -111,7 +111,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             double[] expected_21_Anh = { -1.0 };
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_21_Anh, b_21_Anh, c_21_Anh);
             double[] actual_21_Anh = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh);
+            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
         }
         [TestMethod]
         //TC9 delta_21_Anh=-8.0 < 0 ketquamongdoi = { }   -> Pass
@@ -121,7 +121,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             double[] expected_21_Anh = { };
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_21_Anh, b_21_Anh, c_21_Anh);
             double[] actual_21_Anh = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh);
+            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
 
         }
         [TestMethod]
@@ -132,7 +132,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             double[] expected_21_Anh = { -1.0, -2.0 };
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_21_Anh, b_21_Anh, c_21_Anh);
             double[] actual_21_Anh = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh);
+            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
 
         }
         [TestMethod]
@@ -143,7 +143,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             double[] expected_21_Anh = { 1.0 };
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_21_Anh, b_21_Anh, c_21_Anh);
             double[] actual_21_Anh = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh);
+            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
         }
         [TestMethod]
         //TC12 delta_21_Anh=-3.0 < 0 ketquamongdoi = {x=2.0}   -> Fail
@@ -153,7 +153,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             double[] expected_21_Anh = {2.0};
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_21_Anh, b_21_Anh, c_21_Anh);
             double[] actual_21_Anh = Nghiem_82_Tuyet;
-            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh);
+            CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
 
         }
         //TC13 -> DataSource -> 12 test case -> 6 pass - 6 fail 
