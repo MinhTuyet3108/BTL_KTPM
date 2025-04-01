@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task2_unittest_searchproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task2_unittest_searchproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\cellphones_seleniumtester_21_anh\\cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\cellphones_seleniumtester_21_anh\\cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task2_unittest_searchproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task2_unittest_searchproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CellPhoneS_Controllers_21_Anh.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAawF4AAABhAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwDEAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T09:24:02.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task1_UnitTest_Login_21_Anh.cs",
+              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
+              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
+              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
+              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwCYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T09:13:59.261Z",
               "EditorCaption": ""
             },
             {
@@ -43,29 +56,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Task2_UnitTest_SearchProduct_21_Anh.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T10:57:12.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Task1_UnitTest_Login_21_Anh.cs",
-              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
-              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
-              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
-              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T09:13:59.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T10:57:12.048Z"
             }
           ]
         }

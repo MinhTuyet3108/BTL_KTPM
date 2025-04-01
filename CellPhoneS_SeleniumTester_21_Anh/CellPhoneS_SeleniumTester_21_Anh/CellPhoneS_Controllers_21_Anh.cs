@@ -47,7 +47,7 @@ namespace CellPhoneS_SeleniumTester_21_Anh
             IWebElement element_submit_21_Anh = driver_21_Anh.FindElement(By.ClassName("button__login"));
             element_submit_21_Anh.Click();
 
-            //Nếu đã đăng nhập được có thể chuyển tới trang này 
+            //Nếu đã đăng nhập được có thể chuyển tới trang này -> vì nó không tự chuyển về trang member
             Thread.Sleep(2000);
             driver_21_Anh.Navigate().GoToUrl("https://cellphones.com.vn/smember/");
 
