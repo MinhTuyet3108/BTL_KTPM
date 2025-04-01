@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PhuongTrinhBacHai_21_Anh;
-using System;
+using System.Data;
 
 namespace PhuongTrinhBacHaiTester_82_Tuyet
 {
@@ -12,7 +12,8 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
         private double[] Nghiem_82_Tuyet; 
         string Ketqua_82_Tuyet;
 
-    
+        public TestContext TestContext { get; set; }
+
 
 
         [TestMethod]
@@ -173,10 +174,21 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
         //
         //
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestPower.csv", "TestPower#csv", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data_82_Tuyet\TestDataPTBH_82_Tuyet.csv", "TestDataPTBH_82_Tuyet#csv", DataAccessMethod.Sequential)]
         public void TC13_12Testcase_6pass_6fail_82_Tuyet()
         {
 
+            double a_82_Tuyet, b_82_Tuyet, c_82_Tuyet;
+            double x1_82_Tuyet, x2_82_Tuyet;
+            a_82_Tuyet = double.Parse(TestContext.DataRow[0].ToString());
+            b_82_Tuyet = double.Parse(TestContext.DataRow[1].ToString());
+            c_82_Tuyet = double.Parse(TestContext.DataRow[2].ToString());
+            x1_82_Tuyet = double.Parse(TestContext.DataRow[3].ToString());
+            x2_82_Tuyet = double.Parse(TestContext.DataRow[4].ToString());
+            double[] expected_82_Tuyet = {x1_82_Tuyet, x2_82_Tuyet};
+            PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
+            double[] actual_82_Tuyet = Nghiem_82_Tuyet;
+            CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
 
     }
