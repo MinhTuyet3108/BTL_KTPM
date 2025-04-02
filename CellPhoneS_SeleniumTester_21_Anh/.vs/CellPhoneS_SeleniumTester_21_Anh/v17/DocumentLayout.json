@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CellPhoneS_Controllers_21_Anh.cs",
-              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
-              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
-              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
-              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAwDEAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T09:24:02.564Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -45,9 +32,22 @@
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAiwDQAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T09:13:59.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CellPhoneS_Controllers_21_Anh.cs",
+              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
+              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
+              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
+              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T09:24:02.564Z",
               "EditorCaption": ""
             },
             {

@@ -28,19 +28,20 @@ namespace PhuongTrinhBacHai_21_Anh
                 double b_21_Anh = double.Parse(txtHeSoB_21_Anh.Text);
                 double c_21_Anh = double.Parse(txtHeSoC_21_Anh.Text);
 
-      
 
 
 
+                //do phương thức GiaiPhuongTrinhBacHai_21_Anh là static nên không cần tạo đói tượng PhepTinhPhuongTrinhBacHai_21_Anh
                 PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_21_Anh, out KetQua_21_Anh, a_21_Anh, b_21_Anh, c_21_Anh);
 
 
                 lblKetQua_21_Anh.Text = KetQua_21_Anh;
 
             }
+            //Trường hợp người dùng không nhập vào số -> thì phải quăng ra ngoại lệ này FormatException
             catch (FormatException)
             {
-                MessageBox.Show("Vui lòng nhập số hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Dữ liệu không hợp lệ. Vui lòng nhập số.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
