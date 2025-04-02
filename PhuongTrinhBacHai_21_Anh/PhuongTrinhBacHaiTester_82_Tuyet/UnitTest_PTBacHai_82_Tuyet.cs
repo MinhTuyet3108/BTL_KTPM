@@ -16,7 +16,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
 
         [TestMethod]
-        //TC1 : a=0.0, b=2.0, c=6.0, ket qua mong doi = {-3.0} -> Pass
+        //TC1 : a=0.0, b=2.0, c=6.0, ket qua mong doi = {-3.0} -> Pass do kết quả thật sự cũng là 
         public void TC1_a_bangkhong_b_c_khackhong_Pass_82_Tuyet()
         {
             double a_82_Tuyet = 0.0, b_82_Tuyet = 2.0, c_82_Tuyet = 6.0;
@@ -28,7 +28,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
         }
 
         [TestMethod]
-        //TC2 : a=0.0, b=0.0, c=4.0, ket qua mong doi = { } (vô nghiệm) -> Pass
+        //TC2 : a=0.0, b=0.0, c=4.0, ket qua mong doi = { } (vô nghiệm) -> Pass do kết quả thật sự cũng là
         public void TC2_a_b_bangkhong_c_khackhong_Pass_82_Tuyet()
         {
             double a_82_Tuyet = 0.0 , b_82_Tuyet = 0.0 , c_82_Tuyet = 4.0;
@@ -40,7 +40,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
         }
 
         [TestMethod]
-        //TC3 : a=0.0, b=0.0, c=0.0, ket qua mong doi = { } (vô số nghiệm) -> Pass
+        //TC3 : a=0.0, b=0.0, c=0.0, ket qua mong doi = { } (vô số nghiệm) -> Pass do kết quả thật sự cũng là
         public void TC3_a_b_c_bangkhong_Pass_82_Tuyet()
         {
             double a_82_Tuyet = 0.0 , b_82_Tuyet = 0.0 , c_82_Tuyet = 0.0;
@@ -51,7 +51,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
         [TestMethod]
-        //TC4 : a=0.0, b=5.0, c=15.0, ket qua mong doi ={ 4.0} -> Fail
+        //TC4 : a=0.0, b=5.0, c=15.0, ket qua mong doi ={ 4.0} -> Fail do kết quả thật sự là
         public void TC4_a_bangkhong_b_c_khackhong_Fail_82_Tuyet()
         {
             double a_82_Tuyet = 0.0,  b_82_Tuyet = 5.0 ,  c_82_Tuyet = 15.0;
@@ -63,7 +63,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
         }
 
         [TestMethod]
-        //TC5 : a=0.0, b=0.0, c=4.0, ket qua mong doi = { 5.0} -> Fail
+        //TC5 : a=0.0, b=0.0, c=4.0, ket qua mong doi = { 5.0} -> Fail do kết quả thật sự là
         public void TC5_a_b_bangkhong_c_khackhong_Fail_82_Tuyet()
         {
             double a_82_Tuyet = 0.0, b_82_Tuyet = 0.0 ,c_82_Tuyet = 4.0;
@@ -77,7 +77,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
         }
 
         [TestMethod]
-        //TC6 : a=0.0, b=0.0, c=0.0, ket qua mong doi = {3.0 }  -> Fail
+        //TC6 : a=0.0, b=0.0, c=0.0, ket qua mong doi = {3.0 }  -> Fail do kết quả thật sự là
         public void TC6_a_b_c_bangkhong_Fail_82_Tuyet()
         {
             double a_82_Tuyet = 0.0 ,b_82_Tuyet = 0.0 , c_82_Tuyet = 0.0;
@@ -88,7 +88,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             CollectionAssert.AreEqual(expected_82_Tuyet, actual_82_Tuyet, $"Expected: [{string.Join(", ", expected_82_Tuyet)}], Actual: [{string.Join(", ", actual_82_Tuyet)}]");
         }
         [TestMethod]
-        //TC7 delta_21_Anh =9.0 > 0 , ketquamongdoi = { -1 ,-2/3} -> Pass
+        //TC7 delta_21_Anh =9.0 > 0 , ketquamongdoi = {-2.0 ,-0.5} -> Pass do kết quả thật sự cũng là = {-2.0 ,-0.5}
         public void TC7_delta_lonHonKhong_Pass_21_Anh()
         {
             double a_21_Anh = 2.0 , b_21_Anh = 5.0, c_21_Anh = 2.0;
@@ -97,14 +97,10 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             double[] actual_21_Anh = Nghiem_82_Tuyet ;
             CollectionAssert.AreEqual(expected_21_Anh , actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
 
-            //Xem xét
-            //for (int i = 0; i < expected_21_Anh.Length; i++)
-            //{
-            //    Assert.AreEqual(expected_21_Anh[i], actual_21_Anh[i], 0.0001, "Giá trị nghiệm không đúng"); 0.0001 là sai số chấp nhận đc
-            //}
+
         }
         [TestMethod]
-        //TC8 delta_21_Anh = 0.0  kequamongdoi = {-1.0}  -> Pass
+        //TC8 delta_21_Anh = 0.0  kequamongdoi = {-1.0}  -> Pass do kết quả thật sự cũng là = {-1.0}
         public void TC8_delta_bangKhong_Pass_21_Anh()
         {
             double a_21_Anh = 2.0, b_21_Anh = 4.0, c_21_Anh = 2.0;
@@ -114,7 +110,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
         }
         [TestMethod]
-        //TC9 delta_21_Anh=-8.0 < 0 ketquamongdoi = { }   -> Pass
+        //TC9 delta_21_Anh=-8.0 < 0 ketquamongdoi = { }   -> Pass do kết quả thật sự cũng là = { }
         public void TC9_delta_beHonKhong_Pass_21_Anh()
         {
             double a_21_Anh = 3.0, b_21_Anh = 4.0, c_21_Anh = 2.0;
@@ -125,7 +121,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
         }
         [TestMethod]
-        //TC10 delta_21_Anh =4.0 > 0 , ketquamongdoi = { -1.0 ,-2.0} -> Fail
+        //TC10 delta_21_Anh =4.0 > 0 , ketquamongdoi = { -1.0 ,-2.0} -> Fail do kết quả thật sự là {-1, -0.5}
         public void TC10_delta_lonHonKhong_Fail_21_Anh()
         {
             double a_21_Anh = 4.0, b_21_Anh = 6.0, c_21_Anh = 2.0;
@@ -136,7 +132,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
         }
         [TestMethod]
-        //TC11 delta_21_Anh = 0.0  kequamongdoi = {1.0}  -> Fail
+        //TC11 delta_21_Anh = 0.0  kequamongdoi = {1.0}  -> Fail do kết quả thật sự là {2.0}
         public void TC11_delta_bangKhong_Fail_21_Anh()
         {
             double a_21_Anh = 1.0, b_21_Anh = -4.0, c_21_Anh = 4.0;
@@ -146,7 +142,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
         }
         [TestMethod]
-        //TC12 delta_21_Anh=-3.0 < 0 ketquamongdoi = {x=2.0}   -> Fail
+        //TC12 delta_21_Anh=-3.0 < 0 ketquamongdoi = {x=2.0}   -> Fail do kết quả thật sự là { }
         public void TC12_delta_beHonKhong_Fail_21_Anh()
         {
             double a_21_Anh = 1.0, b_21_Anh = 1.0, c_21_Anh = 1.0;
@@ -156,6 +152,10 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             CollectionAssert.AreEqual(expected_21_Anh, actual_21_Anh, $"Expected: [{string.Join(", ", expected_21_Anh)}], Actual: [{string.Join(", ", actual_21_Anh)}]");
 
         }
+
+
+
+
         //TC13 -> DataSource -> 12 test case -> 6 pass - 6 fail 
         //
         //
@@ -178,6 +178,11 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
         {
 
         }
+
+
+    //TC14 ở đây
+
+
 
     }
 }
