@@ -175,6 +175,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
         }
 
+<<<<<<< Updated upstream
         [TestMethod]
 
         //TC13 test với dữ liệu csv -> DataSource -> 12 test case -> 6 pass - 6 fail 
@@ -246,5 +247,12 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
         }
 
+=======
+
+
+
+ 
+
+>>>>>>> Stashed changes
     }
 }

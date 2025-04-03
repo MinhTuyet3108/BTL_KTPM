@@ -85,6 +85,7 @@
     <Compile Include="Task1_UnitTest_Login_21_Anh.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task2_UnitTest_SearchProduct_21_Anh.cs" />
+    <Compile Include="Task3_UnitTest_ReviewsProduct_21_Anh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
