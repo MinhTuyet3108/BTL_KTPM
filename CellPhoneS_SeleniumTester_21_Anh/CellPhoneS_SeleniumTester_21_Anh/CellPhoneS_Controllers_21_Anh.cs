@@ -96,6 +96,54 @@ namespace CellPhoneS_SeleniumTester_21_Anh
                 driver_21_Anh.Close() ; 
             }
         }
+        public void DanhGiaSanPham_21_Anh()
+        {
+            //Trước khi đánh giá cần phải đăng nhập vào cellphoneS -> không dùng lại DangNhapCellPhoneS_21_Anh(string sđt_21_Anh, string matkhau_21_Anh) vì nó có driver.Close()
+            TruyCapTrangChu_21_Anh();
+
+
+            // cho web dừng 2s để load trang chủ
+            Thread.Sleep(2000);
+            //Click vào để vào đăng nhập
+            driver_21_Anh.FindElement(By.ClassName("login-btn")).Click();
+            // cho web dừng 2s để load nút đăng nhập
+            Thread.Sleep(2000);
+            //Click chuyển tới trang đăng nhập
+            driver_21_Anh.FindElement(By.CssSelector(".modal-login .login-btn")).Click();
+
+
+            //Lấy element nhập số điện thoại
+            driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0933033801"); 
+
+            //Lấy element nhập mật khẩu
+            driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tta1301");
+
+            //Lấy element button đăng nhập
+            driver_21_Anh.FindElement(By.ClassName("button__login")).Click();
+
+            //Cho web dừng 3s chờ load danh sách các danh mục
+            Thread.Sleep(3000);
+
+            //Sau khi đăng nhập ta tiến hành tìm sản phẩm và đánh giá
+            driver_21_Anh.FindElement(By.LinkText("Đồ gia dụng")).Click();
+            //Web dừng 3s chờ load các sản phẩm
+            Thread.Sleep(3000);
+
+            ReadOnlyCollection<IWebElement> list_product_21_Anh = driver_21_Anh.FindElements(By.CssSelector(".product-info"));
+            
+            //Click vào để vào phần đánh giá của sản phẩm đầu tiên
+            list_product_21_Anh[0].Click();
+
+            //đợi load chi tiết sản phẩm
+            Thread.Sleep(2000);
+
+            //Click vào nút để nhập nội dung đánh gía
+            driver_21_Anh.FindElement(By.XPath("//*[text()='Đánh giá ngay']")).Click();
+            
+
+
+
+        }
 
     }
 }
