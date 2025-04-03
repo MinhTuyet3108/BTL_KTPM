@@ -81,18 +81,19 @@ namespace CellPhoneS_SeleniumTester_21_Anh
                     //Trả về vị trí xuất hiện tuTimKiem_21_Anh không phân biệt hoa thường
                     if (product_21_Anh.Text.IndexOf(tuTimKiem_21_Anh, StringComparison.OrdinalIgnoreCase) >= 0)
                     {
-
-                        return true; // Sản phẩm tồn tại
+                        // Sản phẩm tồn tại
+                        return true; 
 
                     }
                 }
 
-
-                return false; // Không tìm thấy sản phẩm
+                // Không tìm thấy sản phẩm
+                return false; 
             }
             finally
             {
-                driver_21_Anh.Close() ; //Đảm bảo luôn đóng drvier dù cho không tìm được sản phẩm
+                //Đảm bảo luôn đóng drvier dù cho không tìm được sản phẩm
+                driver_21_Anh.Close() ; 
             }
         }
 
