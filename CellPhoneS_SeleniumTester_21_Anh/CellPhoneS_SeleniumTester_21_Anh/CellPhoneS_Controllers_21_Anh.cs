@@ -140,7 +140,55 @@ namespace CellPhoneS_SeleniumTester_21_Anh
             //Click vào nút để nhập nội dung đánh gía
             driver_21_Anh.FindElement(By.XPath("//*[text()='Đánh giá ngay']")).Click();
             
+        }
+        //Thêm vào giỏ hàng
+        public void ThemVaoGioHang_82_Tuyet()
+        {
+            //Trước khi đánh giá cần phải đăng nhập vào cellphoneS -> không dùng lại DangNhapCellPhoneS_21_Anh(string sđt_21_Anh, string matkhau_21_Anh) vì nó có driver.Close()
+            TruyCapTrangChu_21_Anh();
 
+            // cho web dừng 2s để load trang chủ
+            Thread.Sleep(2000);
+            //Click vào để vào đăng nhập
+            driver_21_Anh.FindElement(By.ClassName("login-btn")).Click();
+            // cho web dừng 2s để load nút đăng nhập
+            Thread.Sleep(2000);
+            //Click chuyển tới trang đăng nhập
+            driver_21_Anh.FindElement(By.CssSelector(".modal-login .login-btn")).Click();
+
+
+            //Lấy element nhập số điện thoại
+            driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0522194804");
+
+            //Lấy element nhập mật khẩu
+            driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tuyet123");
+
+            //Lấy element button đăng nhập
+            driver_21_Anh.FindElement(By.ClassName("button__login")).Click();
+
+            //Cho web dừng 3s chờ load danh sách các danh mục
+            Thread.Sleep(3000);
+
+            //Sau khi đăng nhập ta tiến hành thêm sản phẩm vào giỏ hàng
+            driver_21_Anh.FindElement(By.LinkText("Điện thoại")).Click();
+            //Web dừng 3s chờ load các sản phẩm
+            Thread.Sleep(3000);
+
+            ReadOnlyCollection<IWebElement> list_product_82_Tuyet = driver_21_Anh.FindElements(By.CssSelector(".filter-sort__list-product .product-item"));
+
+            //Chọn sản phầm đầu tiên 
+            list_product_82_Tuyet[0].Click();
+
+            //đợi load chi tiết sản phẩm
+            Thread.Sleep(5000);
+
+            //tắt cửa sổ chat với nhân viên
+            IWebElement tatchat_82_Tuyet = driver_21_Anh.FindElement(By.CssSelector(""));
+            tatchat_82_Tuyet.Click();
+
+            //Click vào nút để thêm vào giỏ hàng
+            IWebElement themvaogio_82_Tuyet=  driver_21_Anh.FindElement(By.CssSelector(".add-to-cart-button"));
+            themvaogio_82_Tuyet.Click();
 
 
         }
