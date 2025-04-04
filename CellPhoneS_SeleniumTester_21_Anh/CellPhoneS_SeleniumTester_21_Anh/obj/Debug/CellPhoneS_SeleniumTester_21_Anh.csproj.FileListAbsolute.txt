@@ -76,3 +76,5 @@ D:\BTL_KTPM\CellPhoneS_SeleniumTester_21_Anh\CellPhoneS_SeleniumTester_21_Anh\ob
 D:\BTL_KTPM\CellPhoneS_SeleniumTester_21_Anh\CellPhoneS_SeleniumTester_21_Anh\obj\Debug\CellPhon.0FD658BA.Up2Date
 D:\BTL_KTPM\CellPhoneS_SeleniumTester_21_Anh\CellPhoneS_SeleniumTester_21_Anh\obj\Debug\CellPhoneS_SeleniumTester_21_Anh.dll
 D:\BTL_KTPM\CellPhoneS_SeleniumTester_21_Anh\CellPhoneS_SeleniumTester_21_Anh\obj\Debug\CellPhoneS_SeleniumTester_21_Anh.pdb
+D:\KiemThuPM\BTL_KTPM\CellPhoneS_SeleniumTester_21_Anh\CellPhoneS_SeleniumTester_21_Anh\bin\Debug\WebDriver.Support.dll
+D:\KiemThuPM\BTL_KTPM\CellPhoneS_SeleniumTester_21_Anh\CellPhoneS_SeleniumTester_21_Anh\bin\Debug\WebDriver.Support.xml
