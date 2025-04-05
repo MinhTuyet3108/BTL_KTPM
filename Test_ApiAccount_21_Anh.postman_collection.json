@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "760fabba-6e94-4f51-90bb-2ae476948249",
+		"name": "Test_ApiAccount_21_Anh",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39853539",
+		"_collection_link": "https://lively-crater-429697.postman.co/workspace/TestAPI_21_Anh~df72602a-e86b-487f-b354-234c808e684d/collection/39853539-760fabba-6e94-4f51-90bb-2ae476948249?action=share&source=collection_link&creator=39853539"
+	},
+	"item": [
+		{
+			"name": "Lấy Token_21_Anh",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "tta130124399324356",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "VxfAbAaOkSepTB96rOR6HPsZRduin6JxFmLqDabP",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "W1HSQWpS6rVvQRbiDlHMRajAx57idLENWxVGRjY4AVScd7ztNfSBo4d6IfFGSxhlVzEKrqBnHyzWaLNl8dlSQuHae9IfLNWOhsVJHzh2TlOuVU3ZNB9BwUUMfaBXIc6E",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{social_21_Anh}}/oauth2/token/",
+					"host": [
+						"{{social_21_Anh}}"
+					],
+					"path": [
+						"oauth2",
+						"token",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC1_Test_GetUser_Pass_21_Anh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//expected = 200 -> Pass vì actual cũng là 200 \r",
+							"pm.test(\"TC1_Test_Status200getUser_Pass_21_Anh\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"TC1.2_username_email_khongduocDeTrong_Pass_21_Anh\", () => {\r",
+							"    //Gán data_21_Anh tương đương với 1 response\r",
+							"    let data_21_Anh = pm.response.json()\r",
+							"    //Lấy mảng results trong response\r",
+							"    let users_21_Anh = data_21_Anh.results\r",
+							"    //d_21_Anh tương ứng với 1 dữ liệu user trả về\r",
+							"    for (let u_21_Anh of users_21_Anh){\r",
+							"    //nếu mọi user có username và email khác undefined -> Pass\r",
+							"    pm.expect(u_21_Anh.username).not.equal(undefined);\r",
+							"    pm.expect(u_21_Anh.email).not.equal(undefined);\r",
+							"    }\r",
+							"\r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ojI4FAV8WrhzHpNqwPeCSbvxXsUA14",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{social_21_Anh}}/users/",
+					"host": [
+						"{{social_21_Anh}}"
+					],
+					"path": [
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC2_Test_DangKyTK_Pass_21_Anh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"TC2_DangKyCuuSinhVien_Status201_Pass_21_Anh\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer ojI4FAV8WrhzHpNqwPeCSbvxXsUA14",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "tta130124399324356",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "anh",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "trần",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "tta13031206404@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Nam",
+							"type": "text"
+						},
+						{
+							"key": "alumni_account_code",
+							"value": "2251012005146",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{social_21_Anh}}/users/create_alumni/",
+					"host": [
+						"{{social_21_Anh}}"
+					],
+					"path": [
+						"users",
+						"create_alumni",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC3_Test_CapNhat_lastname_Fail_21_Anh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Nếu cập nhật thành công sẽ là 200 -> test case này fail và status code là 403(Forbiden) (vì token của tài khoản khác \r",
+							"//nên không có quyền cập nhật lastname của users có id là 1)\r",
+							"pm.test(\"TC3_CapNhat_lastname_Fail_21_Anh\", function () {\r",
+							"\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 75FYyZEC3F2WnBwDcUfuBv6frpB3rS",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "last_name",
+							"value": "Tranbccb",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{social_21_Anh}}/users/1/",
+					"host": [
+						"{{social_21_Anh}}"
+					],
+					"path": [
+						"users",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
