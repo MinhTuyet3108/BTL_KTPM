@@ -126,6 +126,8 @@ namespace CellPhoneS_SeleniumTester_21_Anh
                 //Lấy element nhập số điện thoại
                 driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0933033801");
 
+
+
                 //Lấy element nhập mật khẩu
                 driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tta1301");
 
@@ -235,18 +237,84 @@ namespace CellPhoneS_SeleniumTester_21_Anh
             //Chọn sản phầm đầu tiên 
             list_product_82_Tuyet[0].Click();
 
-            //đợi load chi tiết sản phẩm
-            Thread.Sleep(5000);
 
-            ////tắt cửa sổ chat với nhân viên
-            //IWebElement tatchat_82_Tuyet = driver_21_Anh.FindElement(By.CssSelector(""));
-            //tatchat_82_Tuyet.Click();
+
 
             //Click vào nút để thêm vào giỏ hàng
-            IWebElement themvaogio_82_Tuyet=  driver_21_Anh.FindElement(By.CssSelector(".add-to-cart-button"));
+            IWebElement themvaogio_82_Tuyet =  driver_21_Anh.FindElement(By.CssSelector(".add-to-cart-button"));
             themvaogio_82_Tuyet.Click();
 
 
+        }
+
+
+
+        public string KiemTraLichSuMuaHang_21_Anh()
+        {
+            try
+            {
+                TruyCapTrangChu_21_Anh();
+
+
+
+
+
+
+                //Đăng nhập///////
+
+
+                // cho web dừng 2s để load trang chủ
+                Thread.Sleep(2000);
+                //Click vào để vào đăng nhập
+                driver_21_Anh.FindElement(By.ClassName("login-btn")).Click();
+                // cho web dừng 2s để load nút đăng nhập
+                Thread.Sleep(2000);
+                //Click chuyển tới trang đăng nhập
+                driver_21_Anh.FindElement(By.CssSelector(".modal-login .login-btn")).Click();
+
+
+                //Lấy element nhập số điện thoại
+                driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0933033801");
+
+
+
+                //Lấy element nhập mật khẩu
+                driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tta1301");
+
+                //Lấy element button đăng nhập
+                driver_21_Anh.FindElement(By.ClassName("button__login")).Click();
+
+
+                //Cho web dừng 3s chờ load danh sách các danh mục
+                Thread.Sleep(3000);
+
+                //////////////////////////////////
+
+
+                //Lấy element smember và Click vào
+                driver_21_Anh.FindElement(By.CssSelector(".smember")).Click();
+                //Lấy element truy cập smember và Click vào
+                driver_21_Anh.FindElement(By.ClassName("noti-head")).Click();
+                //Chờ web load 1s 
+                Thread.Sleep(1000);
+                //Lấy element lịch sử mua hàng và Click vào
+                driver_21_Anh.FindElement(By.XPath("//*[text()='Lịch sử mua hàng']")).Click();
+                //Chờ web load 1s 
+                Thread.Sleep(1000);
+                //Lấy element xem chi tiết 
+                driver_21_Anh.FindElement(By.XPath("//*[text()='Xem chi tiết']")).Click();
+                //Chờ web load 1s 
+                Thread.Sleep(1000);
+                //Lấy element đơn hàng để lấy được mã đơn 
+                IWebElement donhang_21_Anh = driver_21_Anh.FindElement(By.CssSelector(".code__name strong"));
+                string madon_21_Anh = donhang_21_Anh.Text;
+                return madon_21_Anh;
+            }
+            finally
+            {
+                driver_21_Anh.Close();
+            }
+ 
         }
 
     }

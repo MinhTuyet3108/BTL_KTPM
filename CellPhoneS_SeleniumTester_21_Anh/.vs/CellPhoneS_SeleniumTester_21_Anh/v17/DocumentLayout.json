@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task3_unittest_reviewsproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\cellphones_seleniumtester_21_anh\\cellphones_seleniumtester_21_anh\\task3_unittest_reviewsproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task3_unittest_reviewsproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\cellphones_seleniumtester_21_anh\\cellphones_seleniumtester_21_anh\\task5_unittest_viewhistory_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task5_unittest_viewhistory_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task4_unittest_addtocart_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task4_unittest_addtocart_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\cellphones_seleniumtester_21_anh\\cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task3_UnitTest_ReviewsProduct_21_Anh.cs",
+              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
+              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
+              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
+              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:29:44.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Task4_UnitTest_AddToCart_82_Tuyet.cs",
+              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
+              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
+              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
+              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:29:36.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Task1_UnitTest_Login_21_Anh.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task1_UnitTest_Login_21_Anh.cs",
@@ -48,52 +78,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Task3_UnitTest_ReviewsProduct_21_Anh.cs",
-              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
-              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
-              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
-              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T13:29:44.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CellPhoneS_Controllers_21_Anh.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAmwGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAuwAUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T13:29:36.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Task5_UnitTest_ViewHistory_21_Anh.cs",
+              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task5_UnitTest_ViewHistory_21_Anh.cs",
+              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task5_UnitTest_ViewHistory_21_Anh.cs",
+              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task5_UnitTest_ViewHistory_21_Anh.cs",
+              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task5_UnitTest_ViewHistory_21_Anh.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:34:37.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Task2_UnitTest_SearchProduct_21_Anh.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T13:29:37.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Task4_UnitTest_AddToCart_82_Tuyet.cs",
-              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
-              "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
-              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
-              "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T13:29:36.887Z",
+              "WhenOpened": "2025-04-04T13:29:37.155Z",
               "EditorCaption": ""
             },
             {
