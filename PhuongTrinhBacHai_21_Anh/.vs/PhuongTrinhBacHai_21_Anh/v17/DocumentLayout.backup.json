@@ -4,6 +4,7 @@
   "Documents": [
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|D:\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\phuongtrinhbachaitester_82_tuyet\\unittest_ptbachai_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|solutionrelative:phuongtrinhbachaitester_82_tuyet\\unittest_ptbachai_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,15 +14,27 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|d:\\btl_ktpm\\phuongtrinhbachai_21_anh\\phuongtrinhbachaitester_82_tuyet\\data_82_tuyet\\testdataptbh_82_tuyet.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+=======
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\phuongtrinhbachai_21_anh\\frm_phuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|d:\\btl_ktpm\\phuongtrinhbachai_21_anh\\phuongtrinhbachaitester_82_tuyet\\unittest_ptbachai_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|solutionrelative:phuongtrinhbachaitester_82_tuyet\\unittest_ptbachai_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|D:\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\phuongtrinhbachaitester_82_tuyet\\data_82_tuyet\\testdataptbh_82_tuyet.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|solutionrelative:phuongtrinhbachaitester_82_tuyet\\data_82_tuyet\\testdataptbh_82_tuyet.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|D:\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\phuongtrinhbachai_21_anh\\frm_phuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> a1afe3bece1087fc69deb63e0ef721a5db459ba3
       "RelativeMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|solutionrelative:phuongtrinhbachai_21_anh\\frm_phuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|D:\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\phuongtrinhbachai_21_anh\\frm_phuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|solutionrelative:phuongtrinhbachai_21_anh\\frm_phuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+<<<<<<< Updated upstream
 =======
       "AbsoluteMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|d:\\kiemthupm\\btl_ktpm\\phuongtrinhbachai_21_anh\\phuongtrinhbachaitester_82_tuyet\\unittest_ptbachai_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|solutionrelative:phuongtrinhbachaitester_82_tuyet\\unittest_ptbachai_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -33,6 +46,20 @@
     {
       "AbsoluteMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\phuongtrinhbachai_21_anh\\pheptinhphuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|solutionrelative:phuongtrinhbachai_21_anh\\pheptinhphuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
+=======
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\phuongtrinhbachai_21_anh\\phuongtrinhbachai_21_anh\\pheptinhphuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|solutionrelative:phuongtrinhbachai_21_anh\\pheptinhphuongtrinhbachai_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\phuongtrinhbachai_21_anh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DD0BD0-7467-40A9-A05D-300FEE495462}|PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh.csproj|solutionrelative:phuongtrinhbachai_21_anh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\phuongtrinhbachaitester_82_tuyet\\unittest_ptbachai_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBC1933-6C40-4C57-9609-FAFBACDA7287}|PhuongTrinhBacHaiTester_82_Tuyet\\PhuongTrinhBacHaiTester_82_Tuyet.csproj|solutionrelative:phuongtrinhbachaitester_82_tuyet\\unittest_ptbachai_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> Stashed changes
     }
   ],
@@ -70,6 +97,7 @@
               "ToolTip": "D:\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
               "RelativeToolTip": "PhuongTrinhBacHaiTester_82_Tuyet\\UnitTest_PTBacHai_82_Tuyet.cs",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "ViewState": "AgIAAD8AAAAAAAAAAAA9wLAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T04:02:09.421Z",
@@ -105,11 +133,50 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T04:02:09.532Z",
+=======
+<<<<<<< HEAD
+              "ViewState": "AgIAAI4AAAAAAAAAAAAcwHEAAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAKkAAAAAAAAAAAAwwLQAAAAFAAAAAAAAAA==",
+>>>>>>> a1afe3bece1087fc69deb63e0ef721a5db459ba3
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:33:18.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "RelativeDocumentMoniker": "PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "RelativeToolTip": "PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:33:19.01Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh\\Program.cs",
+              "RelativeDocumentMoniker": "PhuongTrinhBacHai_21_Anh\\Program.cs",
+              "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh\\Program.cs",
+              "RelativeToolTip": "PhuongTrinhBacHai_21_Anh\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:54:59.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+=======
+>>>>>>> a1afe3bece1087fc69deb63e0ef721a5db459ba3
+>>>>>>> Stashed changes
               "Title": "Frm_PhuongTrinhBacHai_21_Anh.cs",
               "DocumentMoniker": "D:\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh\\Frm_PhuongTrinhBacHai_21_Anh.cs",
               "RelativeDocumentMoniker": "PhuongTrinhBacHai_21_Anh\\Frm_PhuongTrinhBacHai_21_Anh.cs",
@@ -117,7 +184,27 @@
               "RelativeToolTip": "PhuongTrinhBacHai_21_Anh\\Frm_PhuongTrinhBacHai_21_Anh.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAqwC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2025-04-03T04:02:09.53Z"
+=======
+              "WhenOpened": "2025-03-25T15:32:06.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 1,
+=======
+              "DocumentIndex": 2,
+              "Title": "PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "DocumentMoniker": "D:\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "RelativeDocumentMoniker": "PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "ToolTip": "D:\\BTL_KTPM\\PhuongTrinhBacHai_21_Anh\\PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "RelativeToolTip": "PhuongTrinhBacHai_21_Anh\\PhepTinhPhuongTrinhBacHai_21_Anh.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwBgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:33:19.01Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
