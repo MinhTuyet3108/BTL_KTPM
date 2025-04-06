@@ -4,24 +4,23 @@
   "Documents": [
     {
 <<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\cellphones_seleniumtester_21_anh\\cellphones_seleniumtester_21_anh\\task5_unittest_viewhistory_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task5_unittest_viewhistory_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task4_unittest_addtocart_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task4_unittest_addtocart_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\cellphones_seleniumtester_21_anh\\cellphones_seleniumtester_21_anh\\task3_unittest_reviewsproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task3_unittest_reviewsproduct_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|d:\\kiemthupm\\btl_ktpm\\cellphones_seleniumtester_21_anh\\cellphones_seleniumtester_21_anh\\task5_unittest_viewhistory_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task5_unittest_viewhistory_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task4_unittest_addtocart_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task4_unittest_addtocart_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
       "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\cellphones_controllers_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -37,10 +36,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task4_unittest_addtocart_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task4_unittest_addtocart_82_tuyet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{599A9C68-396B-4412-A5B9-6ED6036F94CC}|CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh.csproj|solutionrelative:cellphones_seleniumtester_21_anh\\task1_unittest_login_21_anh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,21 +54,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
+          "SelectedChildIndex": 3,
+=======
           "SelectedChildIndex": 4,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Task3_UnitTest_ReviewsProduct_21_Anh.cs",
+<<<<<<< Updated upstream
               "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
 =======
-              "DocumentIndex": 1,
-              "Title": "Task3_UnitTest_ReviewsProduct_21_Anh.cs",
               "DocumentMoniker": "D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
               "ToolTip": "D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task3_UnitTest_ReviewsProduct_21_Anh.cs",
@@ -82,8 +83,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
 <<<<<<< Updated upstream
+              "DocumentIndex": 3,
               "Title": "Task4_UnitTest_AddToCart_82_Tuyet.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task4_UnitTest_AddToCart_82_Tuyet.cs",
@@ -93,6 +94,7 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T13:29:36.887Z",
 =======
+              "DocumentIndex": 2,
               "Title": "Task2_UnitTest_SearchProduct_21_Anh.cs",
               "DocumentMoniker": "D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
@@ -120,7 +122,6 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
-              "DocumentIndex": 1,
 =======
               "DocumentIndex": 3,
               "Title": "Task4_UnitTest_AddToCart_82_Tuyet.cs",
@@ -135,15 +136,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
 >>>>>>> Stashed changes
+              "DocumentIndex": 0,
               "Title": "CellPhoneS_Controllers_21_Anh.cs",
               "DocumentMoniker": "D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "ToolTip": "D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_Controllers_21_Anh.cs",
 <<<<<<< Updated upstream
-              "ViewState": "AgIAABABAAAAAAAAAAAAAD0BAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAuwAUBAAAAAAAAAAAAAA==",
 =======
               "ViewState": "AgIAABUBAAAAAAAAAAAQwBYBAAAjAAAAAAAAAA==",
 >>>>>>> Stashed changes
@@ -154,13 +155,13 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Task5_UnitTest_ViewHistory_21_Anh.cs",
               "DocumentMoniker": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task5_UnitTest_ViewHistory_21_Anh.cs",
               "RelativeDocumentMoniker": "CellPhoneS_SeleniumTester_21_Anh\\Task5_UnitTest_ViewHistory_21_Anh.cs",
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task5_UnitTest_ViewHistory_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task5_UnitTest_ViewHistory_21_Anh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T08:34:37.033Z",
               "EditorCaption": ""
@@ -174,6 +175,8 @@
               "ToolTip": "D:\\KiemThuPM\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task2_UnitTest_SearchProduct_21_Anh.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:29:37.155Z",
 =======
               "DocumentIndex": 5,
               "Title": "Task6_UnitTest_FindStore_82_Tuyet.cs",
@@ -182,17 +185,10 @@
               "ToolTip": "D:\\BTL_KTPM\\CellPhoneS_SeleniumTester_21_Anh\\CellPhoneS_SeleniumTester_21_Anh\\Task6_UnitTest_FindStore_82_Tuyet.cs",
               "RelativeToolTip": "CellPhoneS_SeleniumTester_21_Anh\\Task6_UnitTest_FindStore_82_Tuyet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T09:46:00.604Z",
-              "EditorCaption": ""
-<<<<<<< Updated upstream
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-=======
 >>>>>>> Stashed changes
+              "EditorCaption": ""
             }
           ]
         }
