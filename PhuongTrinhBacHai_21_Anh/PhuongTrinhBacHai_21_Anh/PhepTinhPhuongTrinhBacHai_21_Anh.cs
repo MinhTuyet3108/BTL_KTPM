@@ -65,7 +65,7 @@ namespace PhuongTrinhBacHai_21_Anh
             }
         }
 
-        //Khi không nhập số sẽ quăng ra ngoại lệ này
+      
 
 
     }
