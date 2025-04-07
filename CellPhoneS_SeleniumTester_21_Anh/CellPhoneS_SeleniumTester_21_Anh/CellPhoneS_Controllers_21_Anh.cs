@@ -12,7 +12,9 @@ using OpenQA.Selenium.Support.UI;
 using static OpenQA.Selenium.BiDi.Modules.Script.EvaluateResult;
 
 
-
+//Acccount dự phòng 
+//0372069356
+//tta1301
 
 
 namespace CellPhoneS_SeleniumTester_21_Anh
@@ -28,11 +30,13 @@ namespace CellPhoneS_SeleniumTester_21_Anh
         {
 
             driver_21_Anh.Navigate().GoToUrl("https://cellphones.com.vn/");
+            driver_82_Tuyet.Close();
         }
         public void TruyCapTrangChu_82_Tuyet()
         {
 
             driver_82_Tuyet.Navigate().GoToUrl("https://cellphones.com.vn/");
+            driver_21_Anh.Close();
         }
 
         public string DangNhapCellPhoneS_21_Anh(string sđt_21_Anh, string matkhau_21_Anh)
@@ -130,12 +134,12 @@ namespace CellPhoneS_SeleniumTester_21_Anh
 
 
                 //Lấy element nhập số điện thoại
-                driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0933033801");
+                driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0522194804");
 
 
 
                 //Lấy element nhập mật khẩu
-                driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tta1301");
+                driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tuyet000");
 
                 //Lấy element button đăng nhập
                 driver_21_Anh.FindElement(By.ClassName("button__login")).Click();
@@ -185,7 +189,7 @@ namespace CellPhoneS_SeleniumTester_21_Anh
                 driver_21_Anh.FindElement(By.CssSelector("button.modal__button.has-text-white")).Click();
 
 
-                Thread.Sleep(1000);
+                Thread.Sleep(2000);
                 //Lấy element thông báo thành công xem có được hiển thị hay không -> nếu có là đánh giá đã thành công
                 IWebElement thongbaothanhcong_21_Anh = driver_21_Anh.FindElement(By.CssSelector(".toasted.toasted-primary.success"));
                 if (thongbaothanhcong_21_Anh.Displayed)
@@ -198,7 +202,7 @@ namespace CellPhoneS_SeleniumTester_21_Anh
             finally
             {
                 //Đảm bảo luôn đóng drvier dù cho không tìm được sản phẩm
-                driver_21_Anh.Close();
+                driver_21_Anh.Quit();
             }
 
 
@@ -212,36 +216,36 @@ namespace CellPhoneS_SeleniumTester_21_Anh
             try
             {
                 //Trước khi đánh giá cần phải đăng nhập vào cellphoneS -> không dùng lại DangNhapCellPhoneS_21_Anh(string sđt_21_Anh, string matkhau_21_Anh) vì nó có driver.Close()
-                TruyCapTrangChu_21_Anh();
+                TruyCapTrangChu_82_Tuyet();
 
                 // cho web dừng 2s để load trang chủ
                 Thread.Sleep(2000);
                 //Click vào để vào đăng nhập
-                driver_21_Anh.FindElement(By.ClassName("login-btn")).Click();
+                driver_82_Tuyet.FindElement(By.ClassName("login-btn")).Click();
                 // cho web dừng 2s để load nút đăng nhập
                 Thread.Sleep(2000);
                 //Click chuyển tới trang đăng nhập
-                driver_21_Anh.FindElement(By.CssSelector(".modal-login .login-btn")).Click();
+                driver_82_Tuyet.FindElement(By.CssSelector(".modal-login .login-btn")).Click();
 
 
                 //Lấy element nhập số điện thoại
-                driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0522194804");
+                driver_82_Tuyet.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0522194804");
 
                 //Lấy element nhập mật khẩu
-                driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tuyet000");
+                driver_82_Tuyet.FindElement(By.CssSelector("input[type='password']")).SendKeys("tuyet000");
 
                 //Lấy element button đăng nhập
-                driver_21_Anh.FindElement(By.ClassName("button__login")).Click();
+                driver_82_Tuyet.FindElement(By.ClassName("button__login")).Click();
 
                 //Cho web dừng 3s chờ load danh sách các danh mục
                 Thread.Sleep(3000);
 
                 //Sau khi đăng nhập ta tiến hành thêm sản phẩm vào giỏ hàng
-                driver_21_Anh.FindElement(By.LinkText("Điện thoại")).Click();
+                driver_82_Tuyet.FindElement(By.LinkText("Điện thoại")).Click();
                 //Web dừng 3s chờ load các sản phẩm
                 Thread.Sleep(3000);
 
-                ReadOnlyCollection<IWebElement> list_product_82_Tuyet = driver_21_Anh.FindElements(By.CssSelector(".filter-sort__list-product .product-item"));
+                ReadOnlyCollection<IWebElement> list_product_82_Tuyet = driver_82_Tuyet.FindElements(By.CssSelector(".filter-sort__list-product .product-item"));
 
                 //Chọn sản phầm đầu tiên 
                 list_product_82_Tuyet[0].Click();
@@ -254,13 +258,13 @@ namespace CellPhoneS_SeleniumTester_21_Anh
                 //tatchat_82_Tuyet.Click();
 
                 //Click vào nút để thêm vào giỏ hàng
-                IWebElement themvaogio_82_Tuyet = driver_21_Anh.FindElement(By.CssSelector(".add-to-cart-button"));
+                IWebElement themvaogio_82_Tuyet = driver_82_Tuyet.FindElement(By.CssSelector(".add-to-cart-button"));
                 themvaogio_82_Tuyet.Click();
 
                 Thread.Sleep(1000);
 
                 //Lấy element thông báo thành công xem có được hiển thị hay không -> nếu có thì đã thêm vào giỏ thành công
-                IWebElement themthanhcong_82_Tuyet = driver_21_Anh.FindElement(By.CssSelector(".toasted.toasted-primary.success"));
+                IWebElement themthanhcong_82_Tuyet = driver_82_Tuyet.FindElement(By.CssSelector(".toasted.toasted-primary.success"));
                 if (themthanhcong_82_Tuyet.Displayed)
                 {
                     return true;
@@ -357,13 +361,9 @@ namespace CellPhoneS_SeleniumTester_21_Anh
                 //truy cập vào trang chủ trước khi tìm kiếm cửa hàng
                 TruyCapTrangChu_82_Tuyet();
 
-                // cho web dừng 2s để load trang chủ
-                Thread.Sleep(2000);
 
-                //Click vào để vào chức năng tìm kiếm
-                driver_82_Tuyet.FindElement(By.ClassName("button__link-address")).Click();
-                // cho web dừng 5s để load 
-                Thread.Sleep(3000);
+                Thread.Sleep(2000);
+                driver_82_Tuyet.FindElement(By.XPath("//*[text()='Cửa hàng']")).Click();
 
                 //Sau khi web load xong ta tiến hành tìm cửa hàng gần với vị trí của mình
                 SelectElement tinh_82_Tuyet = new SelectElement(driver_82_Tuyet.FindElement(By.Id("boxSearchProvince")));
