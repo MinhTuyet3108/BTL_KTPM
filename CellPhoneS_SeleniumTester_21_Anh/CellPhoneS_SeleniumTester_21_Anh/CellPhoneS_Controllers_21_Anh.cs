@@ -229,10 +229,10 @@ namespace CellPhoneS_SeleniumTester_21_Anh
 
 
                 //Lấy element nhập số điện thoại
-                driver_82_Tuyet.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0522194804");
+                driver_82_Tuyet.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0933033801");
 
                 //Lấy element nhập mật khẩu
-                driver_82_Tuyet.FindElement(By.CssSelector("input[type='password']")).SendKeys("tuyet000");
+                driver_82_Tuyet.FindElement(By.CssSelector("input[type='password']")).SendKeys("tta1301");
 
                 //Lấy element button đăng nhập
                 driver_82_Tuyet.FindElement(By.ClassName("button__login")).Click();
@@ -247,16 +247,9 @@ namespace CellPhoneS_SeleniumTester_21_Anh
 
                 ReadOnlyCollection<IWebElement> list_product_82_Tuyet = driver_82_Tuyet.FindElements(By.CssSelector(".filter-sort__list-product .product-item"));
 
-                //Chọn sản phầm đầu tiên 
                 list_product_82_Tuyet[0].Click();
 
-                ////đợi load chi tiết sản phẩm
-                //Thread.Sleep(5000);
-
-                //////tắt cửa sổ chat với nhân viên
-                //IWebElement tatchat_82_Tuyet = driver_21_Anh.FindElement(By.XPath("//button[@aria-label='minimize']"));
-                //tatchat_82_Tuyet.Click();
-
+               
                 //Click vào nút để thêm vào giỏ hàng
                 IWebElement themvaogio_82_Tuyet = driver_82_Tuyet.FindElement(By.CssSelector(".add-to-cart-button"));
                 themvaogio_82_Tuyet.Click();
@@ -275,7 +268,7 @@ namespace CellPhoneS_SeleniumTester_21_Anh
             finally
             {
                 //đóng cửa sổ sau khi thêm vào giỏ hàng
-                driver_21_Anh.Close();
+                driver_82_Tuyet.Close();
             }
 
         }

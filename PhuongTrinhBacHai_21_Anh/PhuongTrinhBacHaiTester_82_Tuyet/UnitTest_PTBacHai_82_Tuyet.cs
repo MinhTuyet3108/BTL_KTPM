@@ -175,7 +175,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
 
         }
 
-<<<<<<< Updated upstream
+
         [TestMethod]
 
         //TC13 test với dữ liệu csv -> DataSource -> 12 test case -> 6 pass - 6 fail 
@@ -227,8 +227,7 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             }
             else
                 expected_82_Tuyet = new double[] {};
-            double[] Nghiem_82_Tuyet;
-            string Ketqua_82_Tuyet;
+
 
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
             double[] actual_82_Tuyet = Nghiem_82_Tuyet;
@@ -247,12 +246,12 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             PhepTinhPhuongTrinhBacHai_21_Anh.GiaiPhuongTrinhBacHai_21_Anh(out Nghiem_82_Tuyet, out Ketqua_82_Tuyet, a_82_Tuyet, b_82_Tuyet, c_82_Tuyet);
         }
 
-=======
+
 
 
 
  
 
->>>>>>> Stashed changes
+
     }
 }
