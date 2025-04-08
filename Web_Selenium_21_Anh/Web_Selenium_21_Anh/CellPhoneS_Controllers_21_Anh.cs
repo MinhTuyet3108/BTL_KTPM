@@ -10,6 +10,9 @@ using System.Collections.ObjectModel;
 
 namespace Web_Selenium_21_Anh
 {
+    //Acccount dự phòng 
+    //0372069356
+    //tta1301
 
 
     class CellPhoneS_Controllers_21_Anh
@@ -76,10 +79,8 @@ namespace Web_Selenium_21_Anh
                 driver_21_Anh.Close();
             }
         }
-
-
-            public void TimKiemSanPham_21_Anh(string tuTimKiem_21_Anh)
-             {
+        public void TimKiemSanPham_21_Anh(string tuTimKiem_21_Anh)
+        {
             try
             {
                 TruyCapTrangChu_21_Anh();
@@ -96,11 +97,11 @@ namespace Web_Selenium_21_Anh
                 ReadOnlyCollection<IWebElement> list_product_21_Anh = driver_21_Anh.FindElements(By.CssSelector(".product-item"));
 
                 //Chỉ lấy 5 sản phẩm đầu tiền trong danh sách các sản phẩm
-                foreach(var item_21_Anh in list_product_21_Anh.Take(5))
+                foreach (var item_21_Anh in list_product_21_Anh.Take(5))
                 {
                     //Sẽ lấy tên và giá
                     string tensp_21_Anh = item_21_Anh.FindElement(By.CssSelector("h3")).Text;
-                    string gia_21_Anh  = item_21_Anh.FindElement(By.CssSelector(".product__price--show")).Text;
+                    string gia_21_Anh = item_21_Anh.FindElement(By.CssSelector(".product__price--show")).Text;
                     Console.WriteLine("Tên Sản Phẩm" + tensp_21_Anh + "Gía sản phẩm" + gia_21_Anh);
                 }
 
@@ -112,14 +113,8 @@ namespace Web_Selenium_21_Anh
                 driver_21_Anh.Close();
             }
         }
-    
-
-
-        /// 
-        /// Chưa fixx
-        /// 
-     public void DanhGiaSanPham_21_Anh()
-        {
+        public void DanhGiaSanPham_21_Anh()
+         {
             try
             {
                 //Trước khi đánh giá cần phải đăng nhập vào cellphoneS -> không dùng lại DangNhapCellPhoneS_21_Anh(string sđt_21_Anh, string matkhau_21_Anh) vì nó có driver.Close()
@@ -139,12 +134,12 @@ namespace Web_Selenium_21_Anh
 
 
                 //Lấy element nhập số điện thoại
-                driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0522194804");
+                driver_21_Anh.FindElement(By.CssSelector("input[type='tel']")).SendKeys("0372069356");
 
 
 
                 //Lấy element nhập mật khẩu
-                driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tuyet000");
+                driver_21_Anh.FindElement(By.CssSelector("input[type='password']")).SendKeys("tta1301");
 
                 //Lấy element button đăng nhập
                 driver_21_Anh.FindElement(By.ClassName("button__login")).Click();
@@ -163,8 +158,8 @@ namespace Web_Selenium_21_Anh
 
                 ReadOnlyCollection<IWebElement> list_product_21_Anh = driver_21_Anh.FindElements(By.CssSelector(".product-info"));
 
-                //Click vào để vào phần đánh giá của sản phẩm đầu tiên
-                list_product_21_Anh[0].Click();
+                //Click vào để vào phần đánh giá của sản phẩm thứ 3
+                list_product_21_Anh[2].Click();
 
                 //đợi load chi tiết sản phẩm
                 Thread.Sleep(2000);
@@ -195,8 +190,11 @@ namespace Web_Selenium_21_Anh
 
 
                 Thread.Sleep(2000);
-                //Lấy element thông báo thành công xem có được hiển thị hay không -> nếu có là đánh giá đã thành công
-                IWebElement thongbaothanhcong_21_Anh = driver_21_Anh.FindElement(By.CssSelector(".toasted.toasted-primary.success"));
+                //Lấy element thông báo thành công xem có được hiển thị hay không -> lấy thẻ b để in ra text
+                IWebElement thongbaothanhcong_21_Anh = driver_21_Anh.FindElement(By.CssSelector(".toasted.toasted-primary.success b"));
+
+                string noidungthongbao_21_Anh = thongbaothanhcong_21_Anh.Text;
+                Console.WriteLine("Nội dung thông báo"+noidungthongbao_21_Anh);
             }
 
             finally
@@ -209,17 +207,12 @@ namespace Web_Selenium_21_Anh
 
         }
 
-        public string KiemTraLichSuMuaHang_21_Anh()
+
+        public void KiemTraLichSuMuaHang_21_Anh()
         {
             try
             {
                 TruyCapTrangChu_21_Anh();
-
-
-
-
-
-
                 //Đăng nhập///////
 
 
@@ -266,9 +259,13 @@ namespace Web_Selenium_21_Anh
                 //Chờ web load 1s 
                 Thread.Sleep(1000);
                 //Lấy element đơn hàng để lấy được mã đơn 
-                IWebElement donhang_21_Anh = driver_21_Anh.FindElement(By.CssSelector(".code__name strong"));
-                string madon_21_Anh = donhang_21_Anh.Text;
-                return madon_21_Anh;
+                string madon_21_Anh = driver_21_Anh.FindElement(By.CssSelector(".code__name strong")).Text;
+               
+                string ngaydat_21_Anh = driver_21_Anh.FindElement(By.CssSelector(".order-detail__date")).Text;
+                Console.WriteLine("Ma don"+ madon_21_Anh + "Ngay dat" +ngaydat_21_Anh );
+                
+
+                
             }
             finally
             {

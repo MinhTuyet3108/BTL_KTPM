@@ -34,12 +34,12 @@ namespace Web_Selenium_21_Anh
 
         private void btnXemLichSuMuaHang_21_Anh_Click(object sender, EventArgs e)
         {
-
+            c_21_Anh.KiemTraLichSuMuaHang_21_Anh(); 
         }
 
         private void btnDanhGia_21_Anh_Click(object sender, EventArgs e)
         {
-
+            c_21_Anh.DanhGiaSanPham_21_Anh();
         }
     }
 }
