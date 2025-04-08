@@ -216,13 +216,11 @@ namespace PhuongTrinhBacHaiTester_82_Tuyet
             }
             else if (x1_str_82_Tuyet == x2_str_82_Tuyet && double.TryParse(x1_str_82_Tuyet, out double x1_82_Tuyet))
             {
-                //double.TryParse(x1_str_82_Tuyet, out double x1_82_Tuyet);
+          
                 expected_82_Tuyet = new double[] { x1_82_Tuyet };
             }
             else if(double.TryParse(x1_str_82_Tuyet, out x1_82_Tuyet)&&double.TryParse(x2_str_82_Tuyet, out double x2_82_Tuyet))
             {
-                //double x1_82_Tuyet = double.Parse(x1_str_82_Tuyet);
-                //double x2_82_Tuyet = double.Parse(x2_str_82_Tuyet);
                 expected_82_Tuyet = new double[] { x1_82_Tuyet, x2_82_Tuyet };
             }
             else
