@@ -77,6 +77,9 @@
     <Reference Include="WebDriver, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.WebDriver.4.31.0\lib\netstandard2.0\WebDriver.dll</HintPath>
     </Reference>
+    <Reference Include="WebDriver.Support, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.4.31.0\lib\netstandard2.0\WebDriver.Support.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CellPhoneS_Controllers_21_Anh.cs" />
@@ -86,10 +89,20 @@
     <Compile Include="Frm_CellPhoneS_21_Anh_.Designer.cs">
       <DependentUpon>Frm_CellPhoneS_21_Anh_.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Hasaki_82_Tuyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Hasaki_82_Tuyet.Designer.cs">
+      <DependentUpon>Frm_Hasaki_82_Tuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasaki_Controllers_82_Tuyet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_CellPhoneS_21_Anh_.resx">
       <DependentUpon>Frm_CellPhoneS_21_Anh_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Hasaki_82_Tuyet.resx">
+      <DependentUpon>Frm_Hasaki_82_Tuyet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

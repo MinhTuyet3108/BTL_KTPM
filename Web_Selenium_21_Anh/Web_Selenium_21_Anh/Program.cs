@@ -16,7 +16,7 @@ namespace Web_Selenium_21_Anh
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_CellPhoneS_21_Anh_());
+            Application.Run(new Frm_Hasaki_82_Tuyet());
         }
     }
 }
